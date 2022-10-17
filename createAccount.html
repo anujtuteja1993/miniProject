@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="loginStyles.css" />
+    <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+    <title>Create an Account</title>
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input type="text" placeholder="Name" id="name" name="name"/>
+        <input type="email" placeholder="Email" id="email" name="email"/>
+        <input type="password" placeholder="Password" id="psw" name="pwd"/>
+        <button type="button" onclick="saveData()" id="save_btn">Create Account</button>
+        <p class="message">Already registered?<a href="./login.html">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="./createAccount.js"></script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="loginStyles.css" />
+      <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+      <title>Football Highlights Login</title>
+    </head>
+    <body>
+      <div class="login-page">
+        <div class="form">
+          <form class="login-form">
+            <input type="email" placeholder="Email" id="email" name="email" />
+            <input type="password" placeholder="Password" id="psw" name="pwd" />
+            <button type="button" id="save_btn" onclick="saveData()">
+              login
+            </button>
+            <p class="message">
+              Not registered?
+              <a href="./createAccount.html">Create an account</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </body>
+    <script src="./login.js"></script>
+  </html>
+</html>
