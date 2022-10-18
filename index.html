@@ -17,6 +17,7 @@
             bulk of the card's content.
           </p>
           <a href="#" id="matchDetails" class="btn btn-primary" target="_blank" rel="noreferrer noopener">Match Details</a>
+          <a href="#" id="matchVideoButton" class="btn btn-primary">Watch Video</a> <!-- added a button for watching the video -->
         </div>
       </div>
   </template>
@@ -63,11 +64,16 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
+            <!-- Need a way to navigate to the login page -->
+            <li class="nav-item">
+              <a class="nav-link" id="loginLink" aria-current="page" href="login.html">Login</a>
+            </li>            
           </ul>
         </div>
       </div>
     </nav>
       <div class="container">
+        <div id="matchVideo"></div> <!-- container for showing the clicked video -->
         <div id="car-list" class="row"></div>
       </div>
     <script src="footballAPI.js"></script>
